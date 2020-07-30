@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=PT+Sans:wght@400;700&display=swap"
+            rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Киселёвская банька</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/slick.css">
+        <link rel="stylesheet" href="./assets/css/aos.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+<div class="page">
+    <!-- header -->
+    <header class="header" id="header">
+        <video src="./assets/images/video/smoke.mp4" autoplay="autoplay" muted="muted" loop="loop" width="100%"
+            height="85px"></video>
+        <div class="container">
+            <div class="header__inner">                
+                <a class="header__logo" href="#" data-scroll="#intro">
+                    <img class="img" src="./assets/images/logo.svg" alt="logo">
+                    <span class="header__logo-text">Киселевская банька</span>
+                </a>
+
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="#" data-scroll="#services">Услуги</a>
+                    <a class="nav__link" href="#" data-scroll="#clients">Отзывы</a>
+                    <a class="nav__link" href="#" data-scroll="#benefits">Преимущества</a>
+                    <a class="nav__link" href="#" data-scroll="#team">Галерея</a>
+                    <a class="nav__link" href="#" data-scroll="#mission">О нас</a>
+                    <a class="nav__link" href="blog.html" data-scroll="#news">Про баню</a>
+                    <a class="nav__link" href="#" data-scroll="#contacts">Контакты</a>
+                </nav>
+
+                <button class="burger" id="navToggle" type="button">
+                    <span class="burger__line">1</span>
+                    <span class="burger__line">2</span>
+                    <span class="burger__line">3</span>
+                    <span class="burger__line">4</span>
+                </button>
+
+            </div> <!-- /header__inner -->
+        </div><!-- /.container -->
+    </header>
+
+    <!-- Intro -->
+
+    <div class="intro" id="intro">
+
+        <div class="intro__slider" id="introSlider">
+            
+            <div class="slider-item"> 
+                <div class="intro__slider-item" style="background-image: url('./assets/images/slider/slide1.jpeg');">
+                </div>               
+            </div>
+
+            <div class="slider-item">
+                <div class="intro__slider-item" style="background-image: url('./assets/images/slider/slide2.jpeg');">
+                </div>
+            </div>
+
+            <div class="slider-item">
+                <div class="intro__slider-item" style="background-image: url('./assets/images/slider/slide3.jpeg');">
+                </div>
+            </div>
+
+            <div class="slider-item">
+                <div class="intro__slider-item" style="background-image: url('./assets/images/slider/slide4.jpg');">
+                </div>
+            </div>
+            
+            <div class="slider-item">
+                <div class="intro__slider-item" style="background-image: url('./assets/images/slider/slide5.jpeg');">
+                </div>
+            </div>
+
+        </div><!-- /#introSlider -->
+        <div class="container">
+            <div class="into__inner">
+                <div class="request-form request-form--intro" data-aos="fade-right">
+                    <div class="request-form__header">
+                        <h3 class="request-form__title">
+                            Обратный звонок
+                        </h3><!-- /.request-form__title -->
+                        <div class="request-form__text">
+                            Приглашаем в гости всех ценителей парного отдыха
+                        </div><!-- /.request-form__text -->
+                    </div><!-- /request-form__header -->
+
+                    <div class="request-form__content">
+                        <form class="form" action="/" method="post">
+
+                            <div class="form__group">
+                                <input class="input  input--user" type="text" placeholder="Ваше имя">
+                            </div>
+                            <div class="form__group">
+                                <input class="input  input--phone" type="tel" placeholder="Ваш телефон">
+                            </div>
+                            <div class="form__group">
+                                <input class="input  input--email" type="email" placeholder="Ваша почта">
+                            </div>
+
+                            <button class="btn  btn--block  btn--orange" type="submit">
+                                <span>Перезвоните мне</span>
+                            </button>
+
+                        </form>
+                    </div> <!-- /.request-form__content -->
+                </div><!-- /.request-form -->
+
+                <div class="intro__text" data-aos="fade-left">
+                    
+                    <div class="intro__countries">Добро пожаловать!</div>
+                    <h1 class="intro__title">
+                        Русская парная
+                    </h1>
+
+                    <div class="text-area">
+                        <div class="box b1">В бане мыться, заново родиться</div>
+                        <div class="box b2">Баня парит – здоровье дарит</div>
+                        <div class="box b3">Баня – мать вторая: кости распарит, тело поправит.</div>
+                        <div class="box b4">В бане парок и ладит, и гладит.</div>
+                        <div class="box b5">Баня любую болезнь из тела гонит.</div>
+                    </div>
+                </div><!-- /.intro__text -->
+
+                <div class="intro__slider-arrows">
+                    <button class="intro__slider-btn  intro__slider-btn--prev" id="introSliderPrev" type="button">Prev</button>
+                    <button class="intro__slider-btn  intro__slider-btn--next" id="introSliderNext" type="button">Next</button>
+                </div> <!-- /.intro__slider-arrows -->
+            </div><!-- /.into__inner -->
+        </div> <!-- /.container -->
+    </div><!-- /.into -->
+
+    <!-- services -->
+
+    <section class="section" id="services" data-scrollspy="#services">
+        <div class="container">
+            <div class="services">
+                <h2 class="services__main-title">Услуги</h2>
+
+                <div class="services__item" data-aos="fade-down">
+                    <h4 class="services__title">
+                        Аквазона
+                    </h4>
+                    <div class="services__text">
+                        <p>
+                            Бассейн с кристально чистой водой для того, чтобы охладить тело и взбодриться после
+                            насыщенных парных процедур, температура воды 26-28 градусов, душ
+                        </p>
+                    </div> <!-- /.services__text -->
+                    <div class="services__footer">
+                        <!-- <a class="services__link" href="#">Learn more</a> -->
+                    </div>
+                </div><!-- /.services__item -->
+
+                <div class="services__item" data-aos="fade-down" data-aos-delay="100">
+                    <h4 class="services__title">
+                        Развлечения
+                    </h4>
+                    <div class="services__text">
+                        <p>                            
+                            Просторный, рассчитанный на компании до 8 человек, гостевой зал, выполненный в классическом
+                            русском стиле и обивкой из натурального дерева;
+                            Караоке, телевизор, аудиоцентр, светомузыка, настольные игры
+                        </p>
+                    </div> <!-- /.services__text -->
+                    <div class="services__footer">
+                        <!-- <a class="services__link" href="#">Learn more</a> -->
+                    </div>
+                </div><!-- /.services__item -->
+
+                <div class="services__item" data-aos="fade-down" data-aos-delay="200">
+                    <h4 class="services__title">
+                        Дополнительно
+                    </h4>
+                    <div class="services__text">
+                        <p>
+                            Есть веники, можно со своим веником, тапочки, простыни, полотенца, халаты, шампунь, мыло, мочалка,
+                            посуда. 
+                        </p>
+                    </div> <!-- /.services__text -->
+                    <div class="services__footer">
+                        <!-- <a class="services__link" href="#">Learn more</a> -->
+                    </div>
+                </div><!-- /.services__item -->
+
+                <div class="services__item" data-aos="fade-down" data-aos-delay="300">
+                    <h4 class="services__title">
+                        Питание/напитки
+                    </h4>
+                    <div class="services__text">
+                        <p>
+                            Большой обеденный стол (разрешено приходить
+                            со своими закусками и напитками).
+                            Имеется возможность доставки еды.
+                        </p>
+                    </div> <!-- /.services__text -->
+                    <div class="services__footer">
+                        <!-- <a class="services__link" href="#">Learn more</a> -->
+                    </div>
+                </div><!-- /.services__item -->
+
+            </div><!-- /.services -->
+        </div><!-- /.container -->
+    </section>
+
+
+    <!-- clients -->
+    <section class="section  section--map" id="clients" data-scrollspy="#clients">
+        <div class="container">
+            <h2 class="section__title">
+                <span>Наши</span> клиенты
+            </h2>
+
+            <div class="clients">
+                
+                <div class="clients__reviews">
+                    <div class="reviews" id="reviewsSlider">
+                        <div class="reviews__item">
+                            <div class="reviews__header">
+                                <img class="reviews__photo" src="https://placehold.it/100" alt="">
+                                <div class="reviews__header-content">
+                                    <div class="reviews__name">Марина</div>
+                                    <div class="reviews__company"></div>
+                                </div><!-- /reviews__header-content -->
+                            </div><!-- /.reviews__header -->
+                            <div class="reviews__content">
+                                <p>Нам все очень понравилось! Чисто, комфортно, теплый бассейн, жаркая парная, отличное обслуживание, все по высшему классу!) Обязательно
+                                причём ещё)</p>
+                                <p>Спасибо Вам за отличный отдых!))</p>
+                            </div><!-- /.reviews__content -->
+                        </div><!-- /.reviews__item -->
+
+                        <div class="reviews__item">
+                            <div class="reviews__header">
+                                <img class="reviews__photo" src="https://placehold.it/100" alt="">
+                                <div class="reviews__header-content">
+                                    <div class="reviews__name">Evgeniy Bogomolov</div>
+                                    <div class="reviews__company"></div>
+                                </div><!-- /reviews__header-content -->
+                            </div><!-- /.reviews__header -->
+                            <div class="reviews__content">
+                                <p>В первую очередь порадовало удобство парковки при подъезде к сауне, оформлен должным
+                                    образом общий интерьер и антураж заведения, в котором чувствуется уютная атмосфера,
+                                    само обслуживание персонала приветливое и дружелюбное! Так что отдых нашей компании
+                                    — очень понравился! Чувствуется, что услуги предоставляются с качеством, душой и
+                                    осознанием своего дела, а не ради чистой коммерции! </p>
+                                <p>Спасибо владельцу за хорошо проведенный отдых! Молодцы!!!</p>
+                            </div><!-- /.reviews__content -->
+                        </div><!-- /.reviews__item -->
+
+                    </div><!-- /.reviews -->
+                </div><!-- /.clients__reviews -->
+            </div><!-- /clients -->
+
+            <button class="btn  btn--orange  btn--shadow" href="#" type="button" data-modal="#becomeClientModal"><span>Забронировать</span></button>
+            
+        </div> <!-- /.container -->
+    </section>
+
+    <!-- benefits -->
+
+    <section class="section" id="benefits" data-scrollspy="#benefits">
+        <div class="container">
+            <h2 class="section__title">
+                <span>Наши</span> преимущества
+            </h2>
+            <div class="benefits">
+                <div class="benefits__col">
+                    <ul class="benefits-list">
+
+                        <li class="benefits-list__item" data-aos="fade-down" data-aos-delay="100">
+                            <h4 class="benefits-list__title">
+                                Русская парная
+                            </h4>
+                            <div class="benefits-list__text">
+                                <p>
+                                    настоящая русская парная, в которой можно попариться под дубовый или березовый
+                                    веник;
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="benefits-list__item" data-aos="fade-down" data-aos-delay="200">
+                            <h4 class="benefits-list__title">
+                                Бассейн
+                            </h4>
+                            <div class="benefits-list__text">
+                                <p>
+                                    Бассейн с кристально чистой водой для того, чтобы охладить тело и взбодриться после
+                                    насыщенных парных процедур. Температура воды 26-28 градусов;
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="benefits-list__item" data-aos="fade-down" data-aos-delay="300">
+                            <h4 class="benefits-list__title">
+                                Большой Зал
+                            </h4>
+                            <div class="benefits-list__text">
+                                <p>
+                                    просторный, рассчитанный на компании до 8 человек, гостевой зал, выполненный в
+                                    классическом русском стиле и обивкой из натурального дерева;
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="benefits-list__item" data-aos="fade-down" data-aos-delay="400">
+                            <h4 class="benefits-list__title">
+                                Развлечения
+                            </h4>
+                            <div class="benefits-list__text">
+                                <p>
+                                    караоке, видео- и аудиотехника с системой светомузыки;
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div><!-- /.benefits__col -->
+
+                <div class="benefits__col">
+                    <img class="img" src="./assets/images/benefits/benefits-bg.jpg" alt="">
+                </div><!-- /.benefits__col -->
+            </div><!-- /.benefits -->
+        </div><!-- /.container -->
+    </section><!-- /.section -->
+
+    <!-- team -->
+    <section class="section section--gray" id="team" data-scrollspy="#team">
+        <div class="container">
+            <h2 class="section__title">
+                <span>Наша</span> галерея
+            </h2>
+            <div class="team">
+
+                <div class="team__col">
+                    <div class="team__item" data-aos="fade-in">
+                        <img class="team__photo img" src="./assets/images/team/team-1.jpg" alt="team-1">
+                        
+                    </div> <!-- /.team__item -->
+                </div><!-- /.team__col-->
+
+                <div class="team__col">
+                    <div class="team__item" data-aos="fade-in" data-aos-delay="100">
+                        <img class="team__photo img" src="./assets/images/team/team-2.jpg" alt="team-2">
+                        
+                    </div> <!-- /.team__item -->
+                </div><!-- /.team__col-->
+
+                <div class="team__col">
+                    <div class="team__item" data-aos="fade-in" data-aos-delay="200">
+                        <img class="team__photo  img" src="./assets/images/team/team-3.jpg" alt="team-3">
+                        
+                    </div> <!-- /.team__item -->
+                </div><!-- /.team__col-->
+
+            </div> <!-- /.team -->
+        </div><!-- /container -->
+    </section>
+
+    <!-- mission -->
+
+    <section class="section  section--mission" id="mission" data-scrollspy="#mission">
+        <div class="container">
+            <h2 class="mission-title">Русская парная</h2>
+            <div class="mission" data-aos="fade-up">
+                
+                <h3 class="mission__title">
+                    банно-оздоровительный комплекс «Киселёвская банька»
+                </h3>
+                <h4 class="mission__subtitle">
+                    приглашает в гости всех ценителей парного отдыха. Здесь вы сможете отдохнуть и провести время с
+                    пользой для тела и души в по-настоящему комфортной обстановке
+                    Нашей специализацией является традиционная русская баня. Знаете ли вы, что такое легкий пар? Мы не
+                    просто знаем, но и мастерски умеем его готовить! Воздух в наших парилках не обжигает, не затрудняет
+                    дыхание и не перегревает голову, потому что наши помещения устроены мудро и в них стоят «правильные»
+                    печи. Здесь у вас есть возможность познакомиться с банной традицией, которая уходит в глубь веков —
+                    и сохранить об этом опыте самые добрые воспоминания.
+                    А если вы являетесь одним из тех счастливчиков, чей организм хорошо переносит смену температур - к
+                    вашим услугам бассейн, где вы сможете поплавать и перевести дух после захода в парилку. Мы
+                    внимательно следим за состоянием купальной воды, используем современное водоочистительное
+                    оборудование — ведь мы знаем, в какой степени это важно для хорошего самочувствия и спокойствия
+                    посетителей.
+                    Мы постарались создать здесь комфортный, стильный интерьер из максимально натуральных, экологичных
+                    материалов, выбрать мебель, которая будет одновременно удобной и красивой. Надеемся, что вам
+                    понравится! Для создания настроения у нас есть кальян и караоке.
+                </h4>
+            </div><!-- /.mission -->
+            <div class="text-center">
+                <button class="btn  btn--orange  btn--shadow" type="button" data-modal="#becomeClientModal">
+                    <span>Попариться</span>
+                </button>
+            </div>
+        </div><!-- /.container -->
+    </section>
+
+    <!-- articles -->
+
+    <section class="section  section--last" id="news" data-scrollspy="#news">
+        <div class="container">
+            <h2 class="section__title">
+                <span>Интересная</span> информация
+            </h2>
+
+            <div class="articles">
+
+                <article class="articles__item" data-aos="fade-in">
+                    <h4 class="articles__title">
+                        <a href="#">
+                            Как париться в русской бане правильно
+                        </a>
+                    </h4>
+                    <div class="articles__text">
+                        Все довольно просто: нужно периодически обливать раскаленные камни водой, чтобы увеличить объем пара  в помещении до нужного. Для максимального целебного воздействия пара в воду добавляют различные
+                        травяные настойки и примеси, которые еще и приятно пахнут. Довершают картину вязаные веники из
+                        ветвей различных деревьев, хлестание которыми является уникальным видом массажа. Обычно
+                        используют березовые или дубовые изделия.
+                    </div><!-- /.articles__text -->
+                    <time class="articles__date" datetime="2019-02-21 19:00">
+                        
+                    </time>
+                </article><!-- /.articles__item -->
+
+                <article class="articles__item" data-aos="fade-in" data-aos-delay="100">
+                    <h4 class="articles__title">
+                        <a href="#">
+                            Польза бани для организма человека
+                        </a>
+                    </h4>
+                    <div class="articles__text">
+                        Из организма во время посещения парилки из-за обильного потоотделения выводятся шлаки и токсины, а кожные покровы очищаются за счет раскрытия пор. Также баня расслабляет мышцы и тонизирует
+                        основные системы жизнеобеспечения организма. Влажный воздух имеет большую теплопроводность, а
+                        потому в парилке тело человека прогревается более углубленно, но в менее агрессивных условиях.
+                        Это создает положительное воздействие на сердечно-сосудистую систему;
+                    </div><!-- /.articles__text -->
+                    <time class="articles__date" datetime="2019-02-21 19:00">
+                        
+                    </time>
+                </article><!-- /.articles__item -->
+
+            </div><!-- /.articles -->
+
+            <!-- <a class="btn  btn--orange  btn--shadow" href="blog.html">
+                <span>Visit blog</span>
+            </a> -->
+        </div><!-- /.container -->
+    </section> 
+    
+    <section class="section  section--contacts" id="contacts" data-scrollspy="#contacts">
+        
+        <div class="container  container--contacts">
+            <h2 class="section__title">
+                Наши<span>контакты</span>
+            </h2>
+            
+            <div class="contacts__info">
+                <h2 class="contacts__title">
+                    Свяжитесь с нами
+                </h2> <!-- /.contacts__title -->
+                <p class="contacts__phone">
+                    <span>Телефон:</span>
+                    <a href="tel:+78452251044">+7(8452)25-10-44</a>
+                </p>
+                <p class="contacts__mail">
+                    <span>Почта:</span>
+                    <a href="mailto:taxilargus164@gmail.com">taxilargus164@gmail.com</a>
+                </p>
+                <p class="contacts__guest">Или приезжайте к нам в гости</p>
+                <p class="contacts__address">
+                    <span>
+                        Адрес:
+                    </span>
+                    <span>
+                        Саратов, ул.Киселева,
+                        17
+                    </span>
+                </p>
+                <p class="contacts__shema">
+                    <span>Как найти нас быстро</span>
+                    <a href="https://yandex.ru/maps/194/saratov/?clid=2149672-301&ll=46.030232%2C51.533920&mode=search&oid=63521192371&ol=biz&sll=46.034158%2C51.533103&sspn=0.383148%2C0.142179&text=саратов%20киселева%2017&z=17"
+                        target="_blank">Схема
+                        прохода</a>
+                </p>
+            </div><!-- /.contacts__info -->
+
+
+        </div><!-- /.container -->
+    </section><!-- /.contacts section -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <a class="header__logo  header__logo--black" href="#" data-scroll="#intro">
+                <img src="./assets/images/logo-black.svg" alt="logo">
+                <span class="header__logo-text">Киселевская банька</span>
+            </a>
+            <div class="footer__contacts">
+                <p>
+                    банные услуги безупречного качества.
+                </p>
+                <p>
+                    Общая вместимость оздоровительного комплекса — до 13 человек.                    
+                </p>
+                <p>
+                    Стоимость аренды — 500 руб. в час.
+                </p>
+                <p>
+                    Парная русская - 3 человека
+                </p>
+            </div>
+            
+            
+        </div><!-- /.container -->
+        <div class="bubbles">
+            <img src="./assets/images/bubbles/bubble.png" alt="">
+            <img src="./assets/images/bubbles/bubble.png" alt="">
+            <img src="./assets/images/bubbles/bubble.png" alt="">
+            <img src="./assets/images/bubbles/bubble.png" alt="">
+            <img src="./assets/images/bubbles/bubble.png" alt="">
+            <img src="./assets/images/bubbles/bubble.png" alt="">
+            <img src="./assets/images/bubbles/bubble.png" alt="">
+        </div><!-- /.bubbles -->
+        <div class="wave">
+            <div class="wave__one"></div>
+            <div class="wave__two"></div>
+        </div>
+    </footer>
+
+    
+</div><!-- /page -->
+        
+        <!-- modals -->
+
+        <div class="modal" id="becomeClientModal">
+            <div class="modal__inner">
+
+                <div class="modal__content">
+
+                    <div class="modal__header">
+                        <h4 class="modal__title">
+                            Приглашаем в гости всех ценителей парного отдыха
+                        </h4>
+                        <div class="modal__text">
+                            <p>
+                                Заполните форму и мы Вам скоро перезвоним!
+                            </p>
+                        </div><!-- /.modal__text -->
+                    </div><!-- /.modal__header -->
+    
+                    <form class="form" action="/" method="post">
+    
+                        <div class="form__group">
+                            <input class="input  input--dark  input--user" type="text" placeholder="Ваше имя">
+                        </div>
+                        <div class="form__group">
+                            <input class="input  input--dark  input--phone" type="tel" placeholder="Ваш телефон">
+                        </div>
+                        <div class="form__group">
+                            <input class="input  input--dark  input--email" type="email" placeholder="Ваш email">
+                        </div>
+    
+                        <button class="btn  btn--block  btn--orange" type="submit">
+                            <span>Перезвоните мне</span>
+                        </button>
+    
+                    </form>
+    
+                    <div class="modal__footer">
+                        <h4 class="modal__footer-title">
+                            Наши контакты
+                        </h4>
+                        <address class="modal__contacts">
+                            <p>Саратов, Киселева д.17</p>
+                            <p>Phone: 
+                                <a href="telto:+9948373123">+9948373123</a>
+                            </p>
+                            <p>E-mail: 
+                                <a href="mailto:hello@centerlogistic.com">hello@centerlogistic.com</a>
+                            </p>
+                        </address>
+                    </div><!-- /.modal__footer -->
+                    <button class="modal__close" type="button" data-modal-close>
+                        <img src="./assets/images/close.svg" alt="close">
+                    </button>
+                </div> <!-- /modal__content -->
+
+            </div><!-- /.modal__inner -->
+            
+        </div><!-- /.modal -->
+
+        <div class="modal" id="thanksModal">
+            <div class="modal__inner">
+            <div class="modal__content">
+                    <div class="modal__header">
+                        <img class="modal__icon" src="./assets/images/tick.svg" alt="tick">
+                        <h4 class="modal__title">
+                            Спасибо
+                        </h4>
+                        <div class="modal__text">
+                            <p>
+                                Мы скоро Вам перезвоним!
+                            </p>
+                        </div><!-- /.modal__text -->
+                    </div><!-- /.modal__header -->
+    
+                    
+                    <div class="modal__footer">
+                        <h4 class="modal__footer-title">
+                            Наши контакты
+                        </h4>
+                        <address class="modal__contacts">
+                            <p>Саратов, уд Киселева, д.17</p>
+                            <p>Телефон:
+                                <a href="telto:+9948373123">+9948373123</a>
+                            </p>
+                            <p>E-mail:
+                                <a href="mailto:hello@centerlogistic.com">hello@centerlogistic.com</a>
+                            </p>
+                        </address>
+                    </div><!-- /.modal__footer -->
+                    <button class="modal__close" type="button">
+                        <img src="./assets/images/close.svg" alt="close">
+                    </button>
+            </div><!-- /modal__content -->
+            </div><!-- /.modal__inner -->
+        </div><!-- /.modal -->
+
+
+        <!-- script -->
+        
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <script src="./assets/js/aos.js"></script>
+
+        <script src="./assets/js/app.js"></script>
+    </body>
+</html>
