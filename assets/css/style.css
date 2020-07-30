@@ -698,8 +698,17 @@ body.show-nav .header {
     padding: 60px 0;
 }
 
-.section--map {}
 
+
+.section--benefits,
+.section--mission,
+.footer {
+    background-image: url("../images/bg/1587480625_16-p-golubie-foni-s-uzorami-44.jpg");
+    background-attachment: fixed;
+
+    position: relative;
+    z-index: -1;
+}
 
 
 .section--gray {
@@ -767,7 +776,7 @@ body.show-nav .header {
     font-size: 90px;
     line-height: 1;
     color: rgba(44, 44, 44, 0.05);
-
+    -webkit-text-stroke: 1px rgba(0, 74, 242, 1);
     pointer-events: none;
 
     position: absolute;
@@ -1192,18 +1201,23 @@ body.show-nav .header {
 
 /* mission */
 
-.mission-title {
+
+
+.mission-title,
+.benefits-title {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 90px;
     line-height: 108px;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.05);
+    color: rgba(255, 255, 255, .8);
+    -webkit-text-stroke: 1px rgba(0, 74, 242, 1);
     text-align: center;
 }
 
-.mission {
+.mission,
+.benefits {
     padding: 60px 30px;
     margin-bottom: 30px;
 
@@ -1262,6 +1276,8 @@ body.show-nav .header {
 
     color: #585858;
 }
+
+
 
 /* articles */
 
@@ -1462,7 +1478,7 @@ body.show-nav .header {
     font-size: 12px;
     font-weight: 700;
     text-align: center;
-    color: #fff;
+    color: #004af2;
     font-style: normal;
 }
 
