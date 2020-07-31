@@ -50,11 +50,12 @@ video {
     object-fit: cover;
 }
 
-
-.img,
-.img2 {
+.img {
     display: block;
     max-width: 100%;
+}
+
+.logo {    
     height: 80px;
 }
 
